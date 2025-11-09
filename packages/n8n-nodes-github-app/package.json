@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-github-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "n8n node for GitHub with GitHub App authentication",
   "license": "MIT",
   "homepage": "https://github.com/galsalo/n8n-custom-nodes",
