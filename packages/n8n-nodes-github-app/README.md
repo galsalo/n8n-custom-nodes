@@ -1,4 +1,4 @@
-# n8n-nodes-github-app
+# n8n-nodes-github-app-auth
 
 Custom n8n node for GitHub with GitHub App authentication support.
 
@@ -14,7 +14,7 @@ Custom n8n node for GitHub with GitHub App authentication support.
 ### From npm (Recommended)
 
 ```bash
-npm install n8n-nodes-github-app
+npm install n8n-nodes-github-app-auth
 ```
 
 Then restart your n8n instance and the node will be available.
