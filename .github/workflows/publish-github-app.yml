@@ -1,13 +1,14 @@
 name: Publish n8n-nodes-github-app to npm
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - master
+    paths:
+      - 'packages/n8n-nodes-github-app/**'
 
 jobs:
   publish:
-    # Only run if the release tag starts with "github-app-v"
-    if: startsWith(github.ref, 'refs/tags/github-app-v')
     runs-on: ubuntu-latest
     permissions:
       contents: read
